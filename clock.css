@@ -1,0 +1,35 @@
+body {
+    
+    background: #000;
+    color: #fff;
+}
+ul {
+    padding: 30px;
+    list-style-type: none;
+
+}
+li {
+    display:inline;
+    font-size: 40px;
+    font-weight:700;
+    list-style: none;
+    line-height: 1.5em;
+    
+}
+ li#its {
+    color:#fff;
+ }
+ 
+ #digitialclock{
+    
+    font-size: 20px;
+    color: #cecece;
+    margin-bottom: 20px;
+ }
+ 
+ #clockdiv{
+    margin:40px 0px;
+    border:1px solid white;
+    background: #101321;
+    color:#ff0000;
+ }
