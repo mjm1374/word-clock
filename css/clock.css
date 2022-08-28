@@ -16,13 +16,18 @@ li {
     line-height: 1.5em;
     
 }
- li#its {
+
+ .clockface{
+    color: #424447;
+ }
+ .on{
     color:#fff;
  }
  
+ 
  #digitialclock{
-    
-    font-size: 20px;
+    font-size: 50px;
+    font-weight:700;
     color: #cecece;
     margin-bottom: 20px;
  }
@@ -32,4 +37,14 @@ li {
     border:1px solid white;
     background: #101321;
     color:#ffffff;
+ }
+
+
+ .dot-holder{
+    width: 142px;
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+    
  }
